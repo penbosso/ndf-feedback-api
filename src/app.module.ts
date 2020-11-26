@@ -1,7 +1,8 @@
 import { Module } from '@nestjs/common';
-import { FeedbackModule } from './feedback/feedback.module';
+import { FeedbacksModule } from './feedbacks/feedbacks.module';
 
 @Module({
-  imports: [FeedbackModule],
+
+  imports: [FeedbacksModule]
 })
 export class AppModule {}
